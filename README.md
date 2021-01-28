@@ -9,7 +9,7 @@ Using SQL, derive a list of retiring employees and their titles, and then identi
   
 ## Results
 * By left joining the current employees table with the department employees table and grouping by department number, we see that department 5 has the most employees with 9,281.  
-	- Taking that a step further, we can left join on this newly created current employees table to see that department 5 returns null, which means that no managers from that department are retiring.  
+	- Taking that a step further, we can left join on this newly created current employees table to see that department 5 returns null, which means that no managers from that department are retiring just yet.  
 ```
 SELECT  dm.dept_no,
         dm.emp_no,
@@ -25,10 +25,9 @@ FROM dept_manager AS dm
 ### Employee Count by Unique Titles  
   
 ![Department 5](/Department_5.png "Department 5")  
-* When we left join on the titles table, the number of rows increase from ~300K to over ~400K because of "versioning."  
-	-Employee IDs are foreign keys on the titles table.  
-	-Many employees have worked multiple jobs so they have multiple titles on the titles table, which take up multiple lines and can be discerned by the from and to dates.    
-* It is no surprise that most of the retirees are senior staff as shown on this employee count by unique title chart:  
+* When we left join on the titles table, the number of rows increases from ~300K to over ~400K because of "versioning."  
+	-Many employees have worked multiple jobs so they have multiple titles on the titles table (to and from dates differentiate the jobs held by each employee).          	  	  -Employee IDs are foreign keys on the titles table.    
+* It is no surprise that most of the retirees are senior staff as shown on this chart:  
 ![Employees_By_Unique_Title](/Employees_By_Unique_Title.png "Employees_By_Unique_Title")  
   
 * 1,549 employees are eligible to participate in the mentor program.   
