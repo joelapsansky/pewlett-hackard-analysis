@@ -32,10 +32,10 @@ FROM dept_manager AS dm
   
 ![Employees_By_Unique_Title](/Employees_By_Unique_Title.png "Employees_By_Unique_Title")  
   
-* Only 1,549 employees are eligible to participate in the mentor program.   
+* Unfortunately, only 1,549 employees are eligible to participate in the mentor program.   
 	-They are current employees with birth dates in 1965.   
   
 ## Summary
-From summing the 'Employee Count by Unique Titles' chart, it is evident that 90,398 roles will become vacant.  With only 1,549 mentors, that's over 58 employees per mentor.  Since that is not realistic, it is probably best to pull some experienced employees into the mentorship program.  Pewlett should also consider hiring highly talented employees to fill those roles so that less training is required.  This will cost extra money.  Pewlett can start to take action by looking at a few other tables (i.e., count of employees by department with more than 3 years of experience, list of top 3 most experienced managers in each department, etc.).    
+From summing the 'Employee Count by Unique Titles' chart, it is evident that 90,398 roles will become vacant.  With only 1,549 mentors, that's over 58 employees per mentor.  Since that is not realistic, it is probably best to pull some experienced employees into the mentorship program.  Pewlett should also consider hiring highly talented employees to fill those roles so that less training is required.  This will cost extra time and recruiting money.  Pewlett can start to take action by looking at a few other tables (i.e., count of employees by department with more than 3 years of experience, list of top 3 most experienced managers in each department, etc.).    
   
 
