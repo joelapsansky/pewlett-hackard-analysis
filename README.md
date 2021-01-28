@@ -5,7 +5,7 @@ SQL files:
 [Employee Database Challenge](/Queries/SQL/Employee_Database_Challenge.sql)  
   
 ## Overview of Project
-Using SQL, derive a list of retiring employees and their titles, and then identify the particular employees eligible to participate in the mentorship program that you will pitch to Bobby's manager.
+Using SQL, derive a list of retiring employees and their titles, and then identify the particular employees eligible to participate in the mentorship program.
   
 ## Results
 * By left joining the current employees table with the department employees table and grouping by department number, we see that department 5 has the most employees with 9,281  
