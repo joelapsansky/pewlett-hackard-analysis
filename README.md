@@ -23,7 +23,7 @@ FROM dept_manager AS dm
         ON (dm.emp_no = ce.emp_no)
 ```  
 ### Employee Count by Unique Titles  
-![Department 5](/Department5.png "Department 5")  
+![Department 5](/Department_5.png "Department 5")  
 * When we left join on the titles table, the number of rows increase from ~300K to over ~400K because of "versioning"  
 	-Employee IDs are foreign keys on the titles table  
 	-Many employees have worked multiple jobs so they have multiple titles on the titles table, which take up multiple lines and can be discerned by the from and to dates  
