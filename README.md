@@ -25,15 +25,17 @@ FROM dept_manager AS dm
 ### Employee Count by Unique Titles  
   
 ![Department 5](/Department_5.png "Department 5")  
-* When we left join on the titles table, the number of rows increases from ~300K to over ~400K because of "versioning."  
-	-Many employees have worked multiple jobs so they have multiple titles on the titles table (to and from dates differentiate the jobs held by each employee).          	  	  -Employee IDs are foreign keys on the titles table.    
+* When we left join on the full titles table, the number of rows increases from ~300K to over ~400K because of "versioning."  
+	-Many employees have worked multiple jobs so they have multiple roles listed on the titles table (to and from dates differentiate the jobs held by each employee).  
+	-Employee IDs are foreign keys on the titles table.      
 * It is no surprise that most of the retirees are senior staff as shown on this chart:  
+  
 ![Employees_By_Unique_Title](/Employees_By_Unique_Title.png "Employees_By_Unique_Title")  
   
-* 1,549 employees are eligible to participate in the mentor program.   
+* Only 1,549 employees are eligible to participate in the mentor program.   
 	-They are current employees with birth dates in 1965.   
   
 ## Summary
-From summing the 'Employee Count by Unique Titles' chart, it's evident that 90,398 roles will become vacant.  With only 1,549 mentors, that's over 58 employees per mentor.  Since that is not realistic, it is probably best to pull some experienced employees into the mentorship program.  Pewlett should also consider hiring highly talented employees to fill those roles so that less training is required.  This will cost extra money, of course.  Pewlett can start by looking at a few other tables (i.e., count of employees by department with more than 3 years of experience, list of top 3 most experienced managers in each department, etc.).    
+From summing the 'Employee Count by Unique Titles' chart, it is evident that 90,398 roles will become vacant.  With only 1,549 mentors, that's over 58 employees per mentor.  Since that is not realistic, it is probably best to pull some experienced employees into the mentorship program.  Pewlett should also consider hiring highly talented employees to fill those roles so that less training is required.  This will cost extra money.  Pewlett can start to take action by looking at a few other tables (i.e., count of employees by department with more than 3 years of experience, list of top 3 most experienced managers in each department, etc.).    
   
 
