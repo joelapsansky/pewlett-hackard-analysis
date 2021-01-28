@@ -27,8 +27,7 @@ FROM dept_manager AS dm
 ![Department 5](/Department_5.png "Department 5")  
 * When we left join on the full titles table, the number of rows increases from ~300K to over ~400K because of "versioning."  
 	-Many employees have worked multiple jobs so they have multiple roles listed on the titles table (to and from dates differentiate the jobs held by each employee).  
-	-Employee IDs are foreign keys on the titles table.      
-* It is no surprise that most of the retirees are senior staff as shown on this chart:  
+* It is no surprise that most of the retirees are senior staff as shown on this chart:    	
   
 ![Employees_By_Unique_Title](/Employees_By_Unique_Title.png "Employees_By_Unique_Title")  
   
